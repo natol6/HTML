@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.Container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+}
+.Text{
+    font-size: 16px;
+    line-height: 26px;
+    color:#1F3F68;
+    opacity: 60%;
+    letter-spacing: 0.05em;
+}
+.Heading1{
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+    line-height: 74px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+    
+}
+.Heading2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.Heading3{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+
+}
+.Heading4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+}
+.Input{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    padding: 21px 15px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.4;
+}
+.Submit{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 100%;
+    height: 72px;
+    margin-top: 72px;
+    
+}
+.Index_Header{
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    padding-bottom: 94px;
+}
+.Paddings{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.Header_Menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 54px;
+}
+.Index_Header_Background{
+    background-image: url(img/illustration.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.Index_Header_Content_Title{
+    padding-top: 53px;
+    padding-bottom: 96px;
+    
+}
+.TextTitle{
+    max-width: 425px;
+}
+.Index_Header_Content_Button{
+    text-align: center;
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    box-shadow: 5px 10px 20px 0px #356EAD33;
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+.Index_Content{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.Index_Content_MainField_Entity{
+    max-width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding-bottom: 44px;
+    padding-left:  32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    
+}
+.Index_Content_MainField_Entity_Img{
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Margin_Blok_Content{
+    margin-right: 32px;
+}
+.Card_img{
+    display: block;
+    margin: auto auto;
+}
+.Card_link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 27px;
+    color: #5A98D0;
+
+}
+.Vector{
+    margin-left: 24px;
+}
+.Index_Content_MainField{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+.Index_Notification{
+    padding-bottom: 112px;
+}
+.Notification_Pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.Notification_text{
+    width: 65%;
+    text-align: center;
+    color: #222222;
+    opacity: 100%;
+    display: block;
+    margin: 32px auto 64px auto;
+}
+.Picture{
+    position: relative;
+    flex-grow: 1;
+}
+.Picture_Img{
+    width: 100%;
+}
+.Margin_Blok{
+    margin-right: 32px;
+}
+.Picture_Big_Text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+.Picture_Small_Text{
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+.Footer{
+    background: #316099;
+    padding-bottom: 64px;
+}
+.Footer_Paddings{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.Footer_Top{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_Top_Content{
+    width: 495px;
+    margin-top: 91px;
+    margin-bottom: 96px;
+}
+.Footer_Text{
+    color: #FFFFFF;
+}
+.Footer_Button{
+    text-align: center;
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto 0;
+}
+.footerHeading{
+    width: 341px;
+    text-align: left;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+.Streak{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+.Footer_Bottom_List{
+    margin-top: 64px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+.Footer_Contact{
+    width: 270px;
+    padding-left: 20px;
+}
+.Footer_Bottom_Copyright{
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.Contacts_Header{
+    background: url(img/HeaderContacts.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    margin-bottom: 57px;
+    
+}
+.Contacts_Header_Content{
+    width: 60%;
+    margin: auto;
+}    
+.Contacts_Header_Text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+.Contacts_Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 942px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 96px;
+}
+.Contacts_Content_MainField{
+    flex-basis: 301px;
+    margin-right: 101px;
+}
+.Contacts_Content_MainField_Heading{
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+}
+.AddressText{
+font-weight: 300;
+letter-spacing: 0.04em;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.Contacts{
+    list-style-type: none;
+}
+.Mark{
+    margin-right: 15px;
+}
+.Contacts_Content_Form{
+    flex-basis: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 54px;
+}
+
+.Form_Text{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.Contacts_Map{
+    max-width: 942px;
+    margin: 0 auto 112px auto;
+}
+@media(max-width: 1024px){
+    .Index_Header{
+        padding-bottom: 107px;
+    }
+    .Header_Menu{
+        padding-top: 28px;
+        padding-bottom: 44px;
+    }
+    .Index_Header_Background{
+        background-size: 50%;
+    }
+    .Index_Header_Content_Title{
+        padding-top: 69px;
+        padding-bottom: 83px;
+    }
+    .Index_Content_MainField{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Margin_Blok_Content{
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .Index_Content_MainField_Entity{
+        max-width: 335px;
+        padding-left:  30px;
+        padding-right: 30px;
+    }
+    .Index_Content_MainField_Entity_Img{
+        height: 201px;
+    }
+    .Heading4{
+        letter-spacing: 0cm;
+        margin-bottom: 13px;
+    }
+    .Picture_Small_Text{
+        top: 19px;
+        left: 19px;
+    }
+    .Index_Notification{
+        padding-bottom: 109px;
+    }
+    .Footer_Paddings{
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+    .Footer_Top_Content{
+        width: 336px;
+        margin-top: 47px;
+        margin-bottom: 64px;
+    }
+    .Footer_Button{
+        padding: 3px 30px;
+    }
+    .Footer_Bottom_List{
+        flex-direction: column;
+        margin-bottom: 39px;
+    }
+    .Footer_Contact{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .Contacts_Content{
+        display: block;
+        margin-bottom: 64px;
+    }
+    .Contacts_Content_MainField{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 64px;
+        max-width: 301px;
+        width: none;
+    }
+    .Contacts_Content_Form{
+        max-width: 412px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .Contacts_Map{
+        margin-bottom: 64px;
+    }
+    .Contacts_Header_Content{
+        width: 70%;
+        
+    } 
+}
+@media(max-width: 767px){
+    .Index_Header{
+        padding-bottom: 41px;
+    }
+    .Header_Menu{
+        padding-top: 16px;
+        padding-bottom: 28px;
+    }
+    .Paddings{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .Index_Header_Background{
+        background-image: none;
+    }
+    .Index_Header_Content_Title{
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 343px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Heading1{
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .TextTitle{
+        width: 100%;
+        text-align: center;
+    }
+    .Index_Header_Content_Button{
+        font-size: 12px;
+        padding: 5px 12px;
+        max-width: 108px;
+        display: block;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Heading3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .Index_Content_MainField_Entity{
+        padding-bottom: 22px;
+    }
+    .Card_link{
+        margin-top: 45px;
+    }
+    .Notification_text{
+        width: 100%;
+        margin-top: 32px;
+        margin-bottom: 82px;
+    }
+    .Picture_Big_Text{
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        top: 16px;
+        right: 16px;
+    }
+    .Picture_Small_Text{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0em;
+        top: 16px;
+        left: 16px;
+    }
+    .Notification_Pictures{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+    .Margin_Blok{
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .Index_Notification{
+        padding-bottom: 64px;
+    }
+    .Footer_Paddings{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .Footer_Top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer_Button{
+        max-width: 108px;
+        margin-bottom: 41px;
+    }
+    .footerHeading{
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+        line-height: 46px;
+        letter-spacing: 0em;
+    }
+    .Footer_Text{
+        text-align: center;
+    }
+    .Footer_Top_Content{
+        width: 100%;
+    }
+    .Footer_Top_Content{
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 40px;
+    }
+    .Footer_Bottom_List{
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    .Footer_Contact{
+        margin-bottom: 17px;
+    }
+    .Footer_Bottom_Copyright{
+        text-align: center;
+    }
+    .Footer{
+        padding-bottom: 32px;
+    }
+    .Contacts_Content{
+        margin-bottom: 32px;
+    }
+    .Contacts_Map{
+        margin-bottom: 32px;
+    }
+    .Contacts_Header_Content{
+        width: 100%;
+    } 
+    .Heading2{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+    .Contacts_Header_Text{
+        font-size: 16px;
+        letter-spacing: 0em;
+        
+    }
+    .Contacts_Content_MainField{
+        margin-bottom: 32px;
+    }
+    .Contacts_Content_Form{
+        padding: 35px;
+    }
+    .Input{
+        padding: 13px 22px;
+        font-size: 14px;
+    }
+    .Form_Text{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .Contacts_Content_MainField_Heading{
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+    .Submit{
+        height: 46px;
+        margin-top: 46px;
+        
+    }
+}
